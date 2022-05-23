@@ -1,0 +1,38 @@
+doctype html 
+html
+	head 
+		meta(charset="utf-8")
+		title #{title} | Zoro
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		link(rel='stylesheet', href='/css/styles.css')
+	body
+		header#header 
+			.header-content 
+				nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+					a.navbar-brand(href="/") Zoro
+					button.navbar-toggler(type='button', data-toggle='collapse', data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+						span.navbar-toggler-icon
+					.collapse.navbar-collapse#navbarNav
+						ul.navbar-nav.ml-auto 	
+							li.nav-item
+								a.nav-link(href="/") Home
+							li.nav-item
+								a.nav-link(href="/products") Products
+							li.nav-item
+								a.nav-link(href="/about") About Us
+		main#main 
+			// block layout-content is like a placeholder
+			block layout-content
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		footer#footer 
+			p &copy; Copyright Zoro Inc.
+
+//- images:
+//-https://www.istockphoto.com/photo/isolated-image-of-a-diamond-ring-on-a-white-background-gm469421498-61587188
+//- https://www.brides.com/story/planning-the-perfect-marriage-proposal-advice
+//- https://www.twincities.com/2016/12/14/110-year-old-jewelry-store-closing-soon-reflects-stillwater-history/
+//- https://www.flickr.com/photos/koloskov/10311078836
+//- https://www.istockphoto.com/photo/earrings-with-diamond-on-a-white-background-3d-rendering-gm1285849331-382538362
+//- https://www.express.co.uk/travel/articles/1260766/google-maps-street-view-push-up-Canada-Toronto-privacy-funny-viral-image
