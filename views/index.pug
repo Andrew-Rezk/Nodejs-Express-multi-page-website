@@ -1,0 +1,29 @@
+extends layout 
+
+block layout-content 
+  .container
+    h1#main-title.text-center.m-2 Zoro
+      h2#main-slogan.text-center "You deserve to be spoiled"
+  .container.d-flex.justify-content-around
+    .card
+      img(src="/img/ring.jpg", alt="diamond ring").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text We provide high quality jewelry, tested by professionals.
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="/products") See our products
+
+    .card
+      img(src="/img/proposal.jpeg", alt="image of proposal").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text Our Prices are affordable.
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="/products") Check our prices
+
+    .card
+      img(src="/img/history.jpg", alt="michael zoro and his family").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text We have a long history of providing Canadians with the finest jewelry there is to offer
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="/about") About Us
+
+  .container.text-center.m-5
+    a.btn.btn-secondary.btn-lg.justify-content-center.mt-auto(href="/products") Browse our shop
+
+    

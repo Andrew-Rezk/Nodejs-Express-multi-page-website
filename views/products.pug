@@ -1,0 +1,22 @@
+extends layout 
+
+block layout-content 
+  h1.text-center.p-3 Our Products
+   .container.d-flex.justify-content-around
+    .card
+      img(src="/img/ring.jpg", alt="diamond ring").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text $199.99
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="") Add To Cart
+
+    .card
+      img(src="/img/necklace.jpg", alt="diamond necklace").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text.mt-5.pt-5 $179.99
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="") Add To Cart
+
+    .card
+      img(src="/img/earring.jpg", alt="diamond earrings").card-img-top
+      .card-body.d-flex.flex-column
+        p.card-text.mt-5.pt-5 $119.99
+        a.btn.btn-outline-secondary.align-center.d-flex.justify-content-center.mt-auto(href="") Add To Cart
